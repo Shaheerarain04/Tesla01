@@ -1,0 +1,478 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+  position: sticky;
+  top: 0%;
+ }
+ .Logo div{
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.8;
+  color: blue;
+ }
+ .Logo div:hover{
+      color: red;
+      background-color: white;
+ }
+ .Logo{
+    width: 150px;
+    color: black;
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
+    transition-timing-function:linear;
+ } 
+ .Logo:hover{
+  color: #3e6ae1;
+  background-color:white;
+} 
+ nav ul {
+    list-style: none;
+    display: flex;
+    column-gap: 20px;
+ }
+ nav ul li a{
+  transition-property: all;
+  transition-duration: 0.1s;
+  transition-delay: 0.1s;
+  transition-timing-function:linear;
+    font-weight: 600;
+    text-decoration:none ;
+   color: black;
+ }
+ nav ul li a:hover{
+        color:red;
+        background-color: white;
+ }
+ .Social-link ul{
+    display: flex;
+    list-style: none;
+    column-gap: 15px;
+    color: black;
+ }
+ .Social-link ul:hover{
+           color: green;
+ }
+ .order-btn:hover{
+  box-shadow:8px 8px 10px aquamarine;
+ }
+ .demo-btn:hover{
+  box-shadow:8px 8px 10px aquamarine;
+ }
+ .section1{
+    background-image: url(image/tesla.jpg );
+    height: 740px;
+    background-size: cover;
+    background-position: center;
+    padding-top: 70px;
+    padding-bottom: 30px;
+ }
+ .section1 .sec1-content .sec1-group1 h1,  .section2 .sec2-content .sec1-group1 h1{
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    color:white;
+    margin: 0px;
+    padding: 0px;
+ }
+ .section1 .sec1-content .sec1-group1 h3,.section2 .sec2-content .sec1-group1 h3{
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+    margin: 0px;
+    padding: 0px;
+    font-size: 35px;
+    color: white;
+ }
+ .section1 .sec1-content .sec1-group1 p,.section2 .sec2-content .sec1-group1 p{
+  font-family: Arial, Helvetica, sans-serif; 
+    font-size:15px;
+    margin: 0px; 
+    padding: 0px;
+    color: white;
+    font-size: 20px;
+ }
+.section1 .sec1-content .sec1-group1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ .section1 .sec1-content .sec1-group2{
+    display:flex;
+    justify-content: center;
+    column-gap:15px;
+    padding-bottom: 56px;
+
+  } 
+ .section1 .sec1-content .sec1-group2 .order-btn{
+            border-radius: 4px;
+            border: none;
+            padding: 8px 90px;
+            background-color: #3e6ae1;
+            color: #fff;
+
+ }
+ .section1  .sec1-content .sec1-group2 .demo-btn{
+    border-radius: 4px;
+    border: none;
+    padding: 8px 90px;
+    background-color: white;
+    color: black;
+}
+.sec1-content{
+display: flex;
+flex-direction:column;
+justify-content: space-between;
+height: 100%;
+} 
+.section2 .sec2-content{
+background-image: url( image/tesla1.jpg);
+height: 740px;
+background-size: cover;
+background-position: center;
+padding-top: 70px;
+padding-bottom: 30px;
+}
+.section2 .sec2-content .sec1-group1 {
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+.section2 .sec2-content  .sec1-group2{
+display:flex;
+justify-content: center;
+column-gap:15px;
+padding-bottom: 56px;
+
+}
+.section2 .sec2-content .sec1-group2 .order-btn{
+border-radius: 4px;
+border: none;
+padding: 8px 90px;
+background-color: #3e6ae1;
+color: #fff;
+}
+.section2  .sec2-content .sec1-group2 .demo-btn{
+border-radius: 4px;
+border: none;
+padding: 8px 90px;
+background-color: white;
+color: black;
+}
+.sec2-content{
+display: flex;
+flex-direction:column;
+justify-content: space-between;
+height: 100%;
+}
+.section3 .sec3-content{ 
+background-image: url(image/tesla2.jpg);
+height: 740px;
+background-size: cover;
+background-position: center;
+padding-top: 70px;
+padding-bottom: 30px;
+} 
+.section3 .sec3-content .sec1-group1 {
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+.section3 .sec3-content{
+background-image: url(image/tesla2.jpg);
+height: 740px;
+background-size: cover;
+background-position: center;
+padding-top: 70px;
+padding-bottom: 30px;
+}
+.section3 .sec3-content .sec1-group1 {
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+.section3 .sec3-content .sec1-group1 h1{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 60px;
+font-weight: 600;
+color:white;
+margin: 0;
+padding: 0;
+}
+.section3 .sec3-content .sec1-group1 h3{
+font-size: 30px;
+text-decoration: underline;
+margin: 0px;
+padding: 0px;
+font-size: 35px;
+color: white;
+}
+.section3 .sec3-content .sec1-group1 p{
+font-size:15px;
+margin: 0px;
+padding: 0;
+color: white;
+font-size: 20px;
+}
+.section3 .sec3-content  .sec1-group2{
+display:flex;
+justify-content: center;
+column-gap:15px;
+padding-bottom: 56px;
+
+}
+.section3 .sec3-content .sec1-group2 .order-btn{
+border-radius: 4px;
+border: none;
+padding: 8px 90px;
+background-color: #3e6ae1;
+color: #fff;
+}
+.section3  .sec3-content .sec1-group2 .demo-btn{
+border-radius: 4px;
+border: none;
+padding: 8px 90px;
+background-color: white;
+color: black;
+}
+.sec3-content{
+display: flex;
+flex-direction:column;
+justify-content: space-between;
+height: 100%;
+}
+.section4 .sec4-content{
+background-image: url(image/tesla3.jpg);
+height: 740px;
+background-size: cover;
+background-position: center;
+padding-top: 70px;
+padding-bottom: 30px;
+}
+.section4 .sec4-content .sec1-group1 {
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+.section4 .sec4-content .sec1-group1 h1{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 60px;
+font-weight: 600;
+color:white;
+margin: 0;
+padding: 0;
+}
+.section4 .sec4-content .sec1-group1 h3{
+font-size: 30px;
+margin: 0px;
+padding: 0px;
+font-size: 35px;
+color: white;
+}
+.section4 .sec4-content .sec1-group1 p{
+font-size:15px;
+text-decoration: underline;
+margin: 0px;
+padding: 0;
+color: white;
+font-size: 18px;
+}
+.section4 .sec4-content  .sec1-group2{
+display:flex;
+justify-content: center;
+column-gap:15px;
+padding-bottom: 56px;
+
+}
+.section4 .sec4-content .sec1-group2 .order-btn{
+border-radius: 4px;
+border: none;
+padding: 8px 90px;
+background-color: #3e6ae1;
+color: #fff;
+}
+.section4  .sec4-content .sec1-group2 .demo-btn{
+border-radius: 4px;
+border: none;
+padding: 8px 90px;
+background-color: white;
+color: black;
+}
+.sec4-content{
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  height: 100%;
+}
+.section5 .sec5-content{
+  background-image: url(image/solarpanel.jpg);
+  height: 740px;
+  background-size: cover;
+  background-position: center;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+.section5 .sec5-content .sec1-group1 {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section5 .sec5-content .sec1-group1 h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  color:white;
+  margin: 0;
+  padding: 0;
+}
+.section5 .sec5-content .sec1-group1 h3{
+  text-decoration: underline;
+  font-size: 30px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 35px;
+  color: white;
+}
+.section5 .sec5-content  .sec1-group2{
+  display:flex;
+  justify-content: center;
+  column-gap:15px;
+  padding-bottom: 56px;
+}
+.section5 .sec5-content .sec1-group2 .order-btn{
+  border-radius: 4px;
+  border: none;
+  padding: 8px 90px;
+  background-color: #3e6ae1;
+  color: #fff;
+}
+.section5  .sec5-content .sec1-group2 .demo-btn{
+  border-radius: 4px;
+  border: none;
+  padding: 8px 90px;
+  background-color: white;
+  color: black;
+  }
+  .sec5-content{
+     display: flex;
+     flex-direction:column;
+     justify-content: space-between;
+     height: 100%;
+  }
+  .section6 .sec6-content{
+     background-image: url(image/tesla-roof.jpg);
+     height: 740px;
+     background-size: cover;
+     background-position: center;
+     padding-top: 70px;
+     padding-bottom: 30px;
+  }
+  .section6 .sec6-content .sec1-group1 {
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+  }
+  .section6 .sec6-content .sec1-group1 h1{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 60px;
+     font-weight: 600;
+     color:white;
+     margin: 0;
+     padding: 0;
+  }
+  .section6 .sec6-content .sec1-group1 h3{
+     font-size: 20px;
+     margin: 0px;
+     padding: 0px;
+     font-size: 35px;
+     color: white;
+  }
+  .section6 .sec6-content  .sec1-group2{
+     display:flex;
+     justify-content: center;
+     column-gap:15px;
+     padding-bottom: 56px;
+  }
+  .section6 .sec6-content .sec1-group2 .order-btn{
+     border-radius: 4px;
+     border: none;
+     padding: 8px 90px;
+     background-color: #3e6ae1;
+     color: #fff;
+  }
+  .section6  .sec6-content .sec1-group2 .demo-btn{
+     border-radius: 4px;
+     border: none;
+     padding: 8px 90px;
+     background-color: white;
+     color: black;
+     }
+     .sec6-content{
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+        height: 100%;
+     }
+     .section7 .sec7-content{
+        background-image: url(image/charge.jpg)  ;
+        height: 740px;
+        background-size: cover;
+        background-position:center;
+        padding-top: 70px;
+        padding-bottom: 30px;
+     }
+     .section7 .sec7-content .sec1-group1 {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+     }
+     .section7 .sec7-content .sec1-group1 h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 60px;
+        font-weight: 600;
+        color:white;
+        margin: 0;
+        padding: 0;
+     }
+     .section7 .sec7-content  .sec1-group2{
+        display:flex;
+        justify-content: center;
+        column-gap:15px;
+        padding-bottom: 56px;
+     }
+     .section7 .sec7-content .sec1-group2 .order-btn{
+        border-radius: 4px;
+        border: none;
+        padding: 8px 90px;
+        background-color: #3e6ae1;
+        color: #fff;
+     }
+     .section7  .sec7-content .sec1-group2 .demo-btn{
+        border-radius: 4px;
+        border: none;
+        padding: 8px 90px;
+        background-color: white;
+        color: black;
+        }
+        .sec7-content{
+           display: flex;
+           flex-direction:column;
+           justify-content: space-between;
+           height: 100%;
+        }
+        footer{
+           font-family: Arial, Helvetica, sans-serif;
+           padding-top: 56px;
+           background-color: white;
+           text-align: center;
+           padding-bottom: 100px;
+           opacity: 0.5;
+           font-size: 13px;
+        }
+        /* footer .fot{
+           display: flex;
+           justify-content: center;
+        } */

@@ -1,0 +1,15 @@
+Log file created: 01/06/24 15:34:27
+-------------------------------------
+Ticks = 187      <8220> <DynamicLink> <5> Increase wait time to 2
+Ticks = 515      <7412> <AnywhereLocalClient> <5> Local Hub HTTP port retrieved, port: 49771
+Ticks = 1797      <5352> <DisplaySurface> <5> [DirectX] Initializing DirectXContext...
+Ticks = 1875      <5352> <DisplaySurface> <5> [DirectX] Initialize DirectXContext succeeded.
+Ticks = 3734      <5352> <AMEApp> <0> Time taken to load MediaCore plugins: 1858.97 milliseconds.
+Ticks = 3797      <5352> <frameio> <5> Building frame.io URLs with prod endpoint api.frame.io
+Ticks = 3797      <5352> <frameio> <5> Building frame.io URLs with prod endpoint api.frame.io
+Ticks = 4187      <5352> <AMEApp> <1> Entering RunEventLoop
+Ticks = 5000      <7240> <LoadProject> <0> 0.192259s
+Ticks = 8109      <5352> <AMEApp> <1> Exited RunEventLoop
+--------------------------------------
+Log file closed: 01/06/24 15:34:35
+
